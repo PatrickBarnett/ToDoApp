@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/toDoItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:longClickable="true"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/toDoItemPriority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="250dp"
+        android:layout_y="0dp"
+        android:longClickable="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/toDoItemStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="20dp"
+        android:longClickable="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/toDoItemDateMade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="40dp"
+        android:longClickable="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/toDoItemDueDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="60dp"
+        android:longClickable="true"
+        android:text="TextView" />
+
+</AbsoluteLayout>
